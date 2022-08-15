@@ -30,10 +30,6 @@ function time(){
         timeFormat.innerHTML = "PM";
         getHour.innerHTML = "0" + hours
     }
-
-    // if(hours > 12) {
-        
-    // }
     return getTime
 }
 setInterval(() => {
