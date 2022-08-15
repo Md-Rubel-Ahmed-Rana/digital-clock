@@ -28,7 +28,6 @@ function time(){
         hours = hours - 12;
         getHour.innerHTML = hours;
         timeFormat.innerHTML = "PM";
-        getHour.innerHTML = "0" + hours
     }
     return getTime
 }
