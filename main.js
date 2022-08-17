@@ -14,7 +14,13 @@ function time(){
       hours = hours - 12;
       timeFormat.innerText = "PM";
     } else{
-      hours = hours
+      if( hours == 0){
+        hours =  12;
+        timeFormat = "AM"
+      } else{
+        hours = hours;
+        timeFormat = "AM"
+      }
     }
 
     if (hours < 10 ) {
